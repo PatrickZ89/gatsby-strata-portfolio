@@ -89,10 +89,9 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>I come from a science background, I studied Physics in college, but have been fascinated by the inner-workings of computers all of my life.</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>I worked as a handyman in college to earn money and eventually, my physics education was put on hold to earn money.  When I started Prime Academy, I was able to satiate my thirst for knowledge and utilize the problem solving skills I have developed over the years.  I love working with others, sharing knowledge, and learning new things.</p>
                         <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>
@@ -133,17 +132,17 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
+                                        275 Baker Street East, Unit 1<br />
+                                        Saint Paul, MN 55107<br />
                                         United States
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        651-786-9413
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="#">Pzarkha@hotmail.com</a>
                                     </li>
                                 </ul>
                             </div>
