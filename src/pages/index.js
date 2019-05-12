@@ -5,24 +5,30 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
+import thumb01 from '../assets/images/thumbs/endInMindThumb'
+import thumb02 from '../assets/images/thumbs/discdaddyThumb'
+import thumb03 from '../assets/images/thumbs/gardensagaThumb'
 import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
+import full01 from '../assets/images/fulls/endInMindFull'
+import full02 from '../assets/images/fulls/discDFull'
+import full03 from '../assets/images/fulls/gadensaga.png'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
-const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+const IMAGES = [
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'End-In-Mind Administrator Web Application', description: `Our team of 5 
+    developers created a full-stack web application that provides a common spot where users can find a calendar displaying events, 
+    and admins receive a place to upload/download documents and photos, as well as a dashboard displaying regional data.  
+    This application is currently being used by the End-In-Mind Organization.
+    Tech used: Javascript, React, Redux, Sagas, User Authentication, Material UI, Calendar.JS`},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Disc Daddy', description: `A full-stack web application aimed to be a virtual 
+    assistant to aid the user in score keeping, data analysis, database record, and real-time map while playing a game of Disc Golf.
+    Tech used: Javascript, React, Redux, Sagas, User Authentication, Material UI, Chart JS, Google Maps API, jQuery`},
+    { id: '3', src: full03, thumbnail: thumb03, caption: 'Garden Saga', description: 'Full Stack Application used for storing garden data, such as plants and associated information.'},
     { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
@@ -75,8 +81,8 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Patrick Zarkha"
+        const siteDescription = "Software Engineer Portfolio"
 
         return (
             <Layout>
@@ -98,9 +104,9 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>Recently Built Full Stack Applications</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
+                        <Gallery images={IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
                             src,
                             thumbnail,
                             caption,
@@ -108,13 +114,13 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
+                            {/* <li><a href="#" className="button">Full Portfolio</a></li> */}
                         </ul>
                     </section>
 
                     <section id="three">
                         <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                        <p>Feel free to send an e-mail if you would like to get in touch</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
@@ -142,13 +148,12 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">Pzarkha@hotmail.com</a>
+                                        <a href="#">SoftwareDev@PatrickZarkha.com</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </section>
-
                 </div>
 
             </Layout>
