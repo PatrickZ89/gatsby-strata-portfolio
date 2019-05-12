@@ -29,9 +29,9 @@ const IMAGES = [
     assistant to aid the user in score keeping, data analysis, database record, and real-time map while playing a game of Disc Golf.
     Tech used: Javascript, React, Redux, Sagas, User Authentication, Material UI, Chart JS, Google Maps API, jQuery`},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Garden Saga', description: 'Full Stack Application used for storing garden data, such as plants and associated information.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    // { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    // { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    // { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
 
 class HomeIndex extends React.Component {
