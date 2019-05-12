@@ -5,16 +5,16 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/endInMindThumb.jpeg'
-import thumb02 from '../assets/images/thumbs/discdaddyThumb.jpeg'
-import thumb03 from '../assets/images/thumbs/gardensagaThumb.jpeg'
+import thumb01 from '../assets/images/thumbs/01.jpg'
+import thumb02 from '../assets/images/thumbs/02.jpg'
+import thumb03 from '../assets/images/thumbs/03.jpg'
 import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 
-import full01 from '../assets/images/fulls/endInMindFull.jpeg'
-import full02 from '../assets/images/fulls/discDFull.jpeg'
-import full03 from '../assets/images/fulls/gadensaga.png'
+import full01 from '../assets/images/fulls/01.jpg'
+import full02 from '../assets/images/fulls/02.jpg'
+import full03 from '../assets/images/fulls/03.png'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
@@ -155,8 +155,12 @@ class HomeIndex extends React.Component {
                         </div>
                     </section>
                 </div>
+              <ul>
+                <li>&copy; Gatsby</li>
+              </ul>
 
             </Layout>
+            
         )
     }
 }
