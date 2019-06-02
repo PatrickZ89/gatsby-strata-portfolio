@@ -95,9 +95,9 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>I come from a science background, I studied Physics in college, but have been fascinated by the inner-workings of computers all of my life.</h2>
+                            <h2>I have a background in Science and Mathematics, I majored in Physics in college, but have always had a great interest in software engineering.</h2>
                         </header>
-                        <p>I worked as a handyman in college to earn money and eventually, my physics education was put on hold.  When I started Prime Academy, I was able to satiate my thirst for knowledge and utilize the problem solving skills I have developed over the years.  I love working with others, sharing knowledge, and learning new things.</p>
+                        <p>During college, financial constraints led me to working in the plumbing and HVAC industry, where I applied problem solving and communication skills with homeowners on a daily basis.  I enjoyed working closely with a team to solve problems, but the desire to work in a flourishing and more mentally stimulating field is what led me to Prime Digital Academy.</p>
                         <ul className="actions">
                             {/* <li><a href="#" className="button">Learn More</a></li> */}
                         </ul>
