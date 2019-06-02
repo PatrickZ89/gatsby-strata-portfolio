@@ -20,12 +20,12 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'End-In-Mind Administrator Web Application', description: `Our team of 5 
+    { id: '1', src: full01, thumbnail: thumb01, link: 'https://end-in-mind.herokuapp.com', caption: 'End-In-Mind Administrator Web Application', description: `Our team of 5 
     developers created a full-stack web application that provides a common spot where users can find a calendar displaying events, 
     and admins receive a place to upload/download documents and photos, as well as a dashboard displaying regional data.  
     This application is currently being used by the End-In-Mind Organization.
     Tech used: Javascript, React, Redux, Sagas, User Authentication, Material UI, Calendar.JS`},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Disc Daddy', description: `A full-stack web application aimed to be a virtual 
+    { id: '2', src: full02, thumbnail: thumb02, link: 'https://disc-daddy.herokuapp.com', caption: 'Disc Daddy', description: `A full-stack web application aimed to be a virtual 
     assistant to aid the user in score keeping, data analysis, database record, and real-time map while playing a game of Disc Golf.
     Tech used: Javascript, React, Redux, Sagas, User Authentication, Material UI, Chart JS, Google Maps API, jQuery`},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Garden Saga', description: 'Full Stack Application used for storing garden data, such as plants and associated information.'},
@@ -106,11 +106,12 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <h2>Recently Built Full Stack Applications</h2>
 
-                        <Gallery images={IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
+                        <Gallery images={IMAGES.map(({ id, src, thumbnail, caption, description, link }) => ({
                             src,
                             thumbnail,
                             caption,
-                            description
+                            description,
+                            link
                         }))} />
 
                         <ul className="actions">
